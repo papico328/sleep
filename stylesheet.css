@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "mamelon";
+    src: url("./mamelon.woff") format("woff");
+}
+
+body {
+    background-color: #add8e6;
+}
+
+#container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+h1 {
+    font-family: "mamelon";
+    display: flex;
+    margin: auto;
+}
+
+.aa {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    vertical-align: text-bottom;
+    position: relative;
+}
+
+.aa img {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
