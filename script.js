@@ -45,6 +45,11 @@ function sleepFinish() {
   if(currentIndex === 4) {
     currentIndex -=4;
     document.getElementById("image").src = images[currentIndex];
+    //ここからjquery
+    $('p').addClass('show').delay(4000).queue(function(next){
+      $(this).removeClass('show');
+      next();;
+    })
   }
 }
 
@@ -55,4 +60,6 @@ document.getElementById("image").onclick = function() {
   currentIndex = 1;
   document.getElementById("image").src = images[currentIndex];
   setTimeout(sleep1, 1500);
+  //ここからjquery
+  $('p').removeClass('show');
 }
