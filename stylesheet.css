@@ -17,13 +17,26 @@ body {
 
 h1 {
     font-family: "mamelon";
-    display: flex;
-    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.finish-text {
+  -webkit-text-stroke: 1px #777;
+  margin: 1% 0 0 0;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Fredoka One', cursive;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
 }
 
 .aa {
     margin: auto;
-    height: 300px;
+    height: 150px;
     width: 300px;
     vertical-align: text-bottom;
     position: relative;
