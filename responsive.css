@@ -1,7 +1,11 @@
 @media screen and (max-width: 800px) {
-  h1, finish-text, #image {
-    width : 50vw ; 
+  h1 {
+    width : 50vw; 
   }
+
+  finish-text, #image {
+    width: 70vw;
+  } 
 
   .aa {
     height: 100px;
