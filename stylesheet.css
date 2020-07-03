@@ -30,6 +30,20 @@ h1 {
   visibility: hidden;
 }
 
+@keyframes text {
+  0% { color: white;}
+  50% { color: yellow;}
+  100% { color: white;}
+}
+
+.star {
+  font-size: 20px;
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  -webkit-text-stroke: 0px ;
+  animation: text 1s infinite;
+  -webkit-animation: text 1s infinite;
+}
+
 .show {
   visibility: visible;
 }
